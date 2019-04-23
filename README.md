@@ -31,6 +31,9 @@ Os códigos e testes foram realizados com um kit LEGO Mindstorms EV3 e a platafo
 * [Finite-State Machines: Theory and Implementation](https://gamedevelopment.tutsplus.com/tutorials/finite-state-machines-theory-and-implementation--gamedev-11867)
 * [Máquina de estado - Embarcados](https://www.embarcados.com.br/maquina-de-estado/)
 * [GER - Grupo de Estudos em Robótica](http://www.gerunicamp.com.br/)
+* [Ev3dev](https://www.ev3dev.org/)
+* [Tutorial Python](https://sites.google.com/site/ev3devpython/) e [repositório da linguagem](https://github.com/ev3dev/ev3dev-lang-python)
+* [Repositório da linguagem C++] (https://github.com/ddemidov/ev3dev-lang-cpp)
 
 ## Participantes
 * Natan Rodrigues de Oliveira
