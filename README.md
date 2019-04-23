@@ -33,7 +33,7 @@ Os códigos e testes foram realizados com um kit LEGO Mindstorms EV3 e a platafo
 * [GER - Grupo de Estudos em Robótica](http://www.gerunicamp.com.br/)
 * [Ev3dev](https://www.ev3dev.org/)
 * [Tutorial Python](https://sites.google.com/site/ev3devpython/) e [repositório da linguagem](https://github.com/ev3dev/ev3dev-lang-python)
-* [Repositório da linguagem C++] (https://github.com/ddemidov/ev3dev-lang-cpp)
+* [Repositório da linguagem C++](https://github.com/ddemidov/ev3dev-lang-cpp)
 
 ## Participantes
 * Natan Rodrigues de Oliveira
