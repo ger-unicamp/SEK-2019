@@ -79,7 +79,7 @@ Primeiro, precisamos entender a diferença de arquitetura. Para compilar um prog
 g++ nome_do_executavel nome_do_codigo.cpp -std=c++11 -Wall -O2
 ```
 
-Entretanto, se você executar o seguinte comando ```file nome_do_executavel``` você verá que tem uma arquitetura associada ao executável, no caso 64 bits (AMD ou Intel). Para o ev3, precisamos adaptar para a arquiterua ARM de 32 bits. Para fazer isto, é necessário instalar no seu computador (Linux) o pacote ```cpp-arm-linux-gnueabi``` e ```gcc-arm-linux-gnueabi```. Feito isso, executamos o seguinte comando no terminal:
+Entretanto, se você executar o seguinte comando ```file nome_do_executavel``` você verá que tem uma arquitetura associada ao executável, no caso 64 bits (AMD ou Intel). Para o ev3, precisamos adaptar para a arquiterua ARM de 32 bits. Para fazer isto, é necessário instalar no seu computador (Linux) o pacote ```gcc-arm-linux-gnueabi```. Feito isso, executamos o seguinte comando no terminal:
 
 ```
 arm-linux-gnueabi-g++ -o nome_do_executavel ev3dev.cpp nome_do_codigo.cpp -std=c++11 -static -Wall
