@@ -37,4 +37,4 @@ Os códigos e testes foram realizados com um kit LEGO Mindstorms EV3 e a platafo
 
 ## Participantes
 * Natan Rodrigues de Oliveira
-* Test
+* Luis Felipe Brentegani
