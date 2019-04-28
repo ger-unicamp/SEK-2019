@@ -108,7 +108,7 @@ Com o Makefile podemos criar dependências de compilação de códigos e automat
 
 ```
 all: main
-main:
+main: ev3dev.o
     arm-linux-gnueabi-g++ -o drive-test drive-test.cpp ev3dev.o -std=c++11 -static -Wall
 ev3dev.o : ev3dev.cpp
     arm-linux-gnueabi-g++ -c ev3dev.cpp -static -Wall
