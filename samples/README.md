@@ -1,4 +1,4 @@
-## Exemplos de códigos em C++ para a plataforma Ev3dev
+# Exemplos de códigos em C++ para a plataforma Ev3dev
 Este diretório irá conter alguns exemplos de códigos básicos. Assim, podemos ter um tutorial próprio de como mexer na linguagem e dar conta de cada tarefa.
 
 ## Como começar meu programa em C++ para rodar no EV3?
