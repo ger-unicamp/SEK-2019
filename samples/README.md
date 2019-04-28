@@ -87,6 +87,14 @@ arm-linux-gnueabi-g++ -o nome_do_executavel ev3dev.cpp nome_do_codigo.cpp -std=c
 
 Note que é importante conter a implementação da biblioteca ev3dev.h representada por ev3dev.cpp, o código feito e as flags que acompanham o comando para evitar erros de dependências e versões. Agora, transferimos o ```nome_do_executável``` para o robô e executamos com o seguinte comando: ```./nome_do_executavel```
 
+### Para computadores Windows
+Para quem usa Windows 10 é necessário ter certeza que o seu Windows tem instalado o Windows Subsystem for Linux. Primeiro, tenha certeza que o modo desenvolvedor está ativado em Settings --> Update & Security --> For developers. Em seguida, vá para Control Panel --> Programs and Features --> Turn Windows Feature On/Off e cheque a opção perto de Windows Subsystem for Linux (Beta).
+
+Depois, execute o terminal bash pressionando a tecla start, escreva `bash` e pressione Enter.
+
+Instale o compilador ARM que usaremos executando o seguinte comando: `sudo apt-get install gcc-arm-linux-gnueabi g++-arm-linux-gnueabi`.
+
+Pronto. Agora, através desse terminal, você poderá executar tudo aqui escrito neste README.
 ## Makefile, nosso companheiro facilitador 
 Com o arquivo Makefile, podemos automatizar o processo de compilação apenas executando ```make``` na linha de comando. Para isto precisamos criar um arquivo Makefile que faça sentido para os nossos códigos. Suponha que eu tenha um programa chamado drive-test.cpp e quero compilá-lo e rodá-lo no ev3. Podemos substituir o comando acima por:
 
