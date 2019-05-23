@@ -2,12 +2,16 @@
 namespace ev3 = ev3dev;
 
 namespace sek{
+	//variables
+	ev3::ultrasonic_sensor ultrasonic;
+
+	//functions
 	ev3::large_motor leftMotor("outC");
         ev3::large_motor rightMotor("outB");
 	ev3::medium_motor mMotor("outD");
 	void andar_reto();
-	void girar_esquerda();
+	int girar_esquerda();
 	void girar_direita();
-	int ultrassonico(ev3::ultrasonic_sensor ultra);
+	float ultrassonico();
 	void cor(ev3::color_sensor color);
 }
