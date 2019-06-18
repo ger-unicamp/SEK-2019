@@ -1,5 +1,5 @@
-#ifndef ROBO
-#define ROBO
+#ifndef ROBOT
+#define ROBOT
 
 #include "ev3dev.h"
 #include <string>
