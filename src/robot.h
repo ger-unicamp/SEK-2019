@@ -7,7 +7,7 @@
 
 namespace ev3 = ev3dev;
 /**
- * Comentary: classe que representa o nosso robo terrestre (ev3). encapsula codigos para mover motores e 
+ * Commentary: classe que representa o nosso robo terrestre (ev3). encapsula codigos para mover motores e 
  * sensores
  * 
  * @author: Natan
@@ -22,6 +22,9 @@ private:
     ev3::gyro_sensor gyro;
     ev3::color_sensor col_sensor1, col_sensor2;
     ev3::touch_sensor touch;
+    
+    ev3::large_motor right_motor, left_motor;
+    ev3::medium_motor medium_motor;
 
     /**
      * Commentary:
@@ -45,13 +48,21 @@ public:
     robot(int max_speed, const std::string stop_action);
 
     /**
-     * Commentary:
+     * Commentary: aplica o run_forever em ambos os motores setando a velocidade para speed
      * 
-     * @author:
-     * @since: 
-     * @param speed:
+     * @author: Natan
+     * @since: 18/06/19
+     * @param speed: parametro para a velocidade dos motores
      */
     void run_forever(int speed);
+
+    /**
+     * Commentary: aplica o run_forever com a velocidade definida por speed dentro desta classe
+     * 
+     * @author: Natan
+     * @since: 18/06/19
+     */
+    void run_forever();
 
     /**
      * Commentary:
@@ -78,7 +89,7 @@ public:
      * @since: 
      * @param stop_action:
      */
-    void stop(std::string stop_action);
+    void stop(const std::string stop_action);
 
     /**
      * Commentary:
@@ -159,6 +170,7 @@ public:
      * @param cond:
      * @param msg:
      * @return:
+     * @exception: 
      */
     bool precondition(bool cond, const std::sting msg);
 }
